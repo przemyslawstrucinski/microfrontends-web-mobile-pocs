@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "strict": true,
+    "paths": {
+      "@doctor/shared": ["app/shared/src/index.ts"],
+      "@doctor/web": ["app/web/src/*"],
+      "@doctor/mobile": ["app/mobile/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
+

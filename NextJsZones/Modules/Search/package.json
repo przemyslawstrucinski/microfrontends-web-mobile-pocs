@@ -1,0 +1,22 @@
+{
+  "name": "@modules/search",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "web:dev": "cd app/web && yarn dev",
+    "web:build": "cd app/web && yarn build",
+    "mobile:start": "cd app/mobile && yarn start"
+  },
+  "workspaces": [
+    "app/web",
+    "app/mobile",
+    "app/shared"
+  ],
+  "devDependencies": {
+    "@nx/js": "^22.1.1",
+    "@types/node": "^24.10.1",
+    "nx": "^22.1.1",
+    "typescript": "^5.9.3"
+  }
+}
