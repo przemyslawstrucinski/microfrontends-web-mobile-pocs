@@ -4,10 +4,9 @@
     "slug": "lekarz-superapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme": "superapp",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#1E40AF"
     },
@@ -16,14 +15,9 @@
       "bundleIdentifier": "com.superapp"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#1E40AF"
-      },
       "package": "com.superapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
     },
     "sdkVersion": "54.0.0"
   }

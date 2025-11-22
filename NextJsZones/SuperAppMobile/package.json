@@ -1,11 +1,27 @@
 {
   "name": "super-app-mobile",
   "version": "1.0.0",
-  "main": "expo-router",
+  "main": "index.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
+  },
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@expo/metro-runtime": "~6.1.2",
+    "@types/react": "~19.1.10",
+    "@types/react-native": "^0.73.0",
+    "expo": "~54.0.25",
+    "expo-constants": "~18.0.10",
+    "expo-linking": "~8.0.9",
+    "expo-router": "~6.0.15",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "typescript": "~5.9.2",
+    "zustand": "^5.0.8"
   }
 }
