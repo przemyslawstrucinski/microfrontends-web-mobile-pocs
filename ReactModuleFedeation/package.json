@@ -1,0 +1,16 @@
+{
+  "name": "superapp-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "cd SuperApp && npm install && cd ../ToDo/api && npm install && cd ../app && npm install && cd ../../Weather/api && npm install && cd ../app && npm install && cd ssr && npm install",
+    "dev:todo-api": "cd ToDo/api && npm run start:dev",
+    "dev:weather-api": "cd Weather/api && npm run start:dev",
+    "dev:todo-app": "cd ToDo/app && npm start",
+    "dev:weather-app": "cd Weather/app && npm start",
+    "dev:superapp": "cd SuperApp && npm run start:web",
+    "dev:ssr": "cd Weather/app/ssr && npm run dev"
+  },
+  "description": "Microfrontend and microservice architecture demo"
+}
+

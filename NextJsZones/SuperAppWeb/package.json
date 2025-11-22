@@ -18,6 +18,7 @@
     "typescript": "5.9.3"
   },
   "dependencies": {
+    "@search/widget": "file:../Modules/Search/app/web/widgets",
     "next": "^16.0.3",
     "react": "^19.0.0-rc.1",
     "react-dom": "^19.0.0-rc.1"
