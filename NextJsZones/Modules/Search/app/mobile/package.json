@@ -10,10 +10,13 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-native": "^0.81.5"
+  },
   "dependencies": {
+    "@callstack/repack": "^5.2.2",
     "expo": "^54.0.25",
-    "react": "^19.2.0",
-    "react-native": "^0.82.1",
     "zustand": "^5.0.8"
   },
   "devDependencies": {

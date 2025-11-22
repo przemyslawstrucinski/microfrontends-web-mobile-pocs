@@ -8,8 +8,17 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
+  "resolutions": {
+    "react": "19.1.0",
+    "react-native": "0.81.5"
+  },
   "dependencies": {
+    "@search/mobile": "link:../Modules/Search/app/mobile",
+    "@doctor/mobile": "link:../Modules/Doctor/app/mobile",
+    "@search/shared": "link:../Modules/Search/app/shared",
+    "@doctor/shared": "link:../Modules/Doctor/app/shared",
     "@babel/core": "^7.26.0",
+    "@callstack/repack": "^5.2.2",
     "@expo/metro-runtime": "~6.1.2",
     "@types/react": "~19.1.10",
     "@types/react-native": "^0.73.0",
@@ -23,5 +32,10 @@
     "react-native-screens": "~4.16.0",
     "typescript": "~5.9.2",
     "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1"
   }
 }
