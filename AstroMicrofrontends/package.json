@@ -1,0 +1,28 @@
+{
+  "name": "astro-microfrontends-poc",
+  "version": "1.0.0",
+  "description": "Microfrontend architecture PoC using Astro, React, and Nanostores",
+  "private": true,
+  "scripts": {
+    "install:all": "cd HostApp && npm install && cd ../SearchMFE && npm install && cd ../DoctorMFE && npm install && cd ..",
+    "dev:host": "cd HostApp && npm run dev",
+    "dev:search": "cd SearchMFE && npm run dev",
+    "dev:doctor": "cd DoctorMFE && npm run dev",
+    "build:all": "npm run build:host && npm run build:search && npm run build:doctor",
+    "build:host": "cd HostApp && npm run build",
+    "build:search": "cd SearchMFE && npm run build",
+    "build:doctor": "cd DoctorMFE && npm run build",
+    "clean": "rm -rf HostApp/node_modules SearchMFE/node_modules DoctorMFE/node_modules HostApp/dist SearchMFE/dist DoctorMFE/dist logs"
+  },
+  "keywords": [
+    "microfrontends",
+    "astro",
+    "react",
+    "nanostores",
+    "typescript",
+    "tailwindcss"
+  ],
+  "author": "",
+  "license": "MIT"
+}
+
