@@ -8,3 +8,4 @@ declare module "doctorApp/DoctorProfile" {
   export default DoctorProfile;
 }
 
+
