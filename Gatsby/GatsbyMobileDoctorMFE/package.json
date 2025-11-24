@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-mobile-doctor-mfe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node metro-server.js"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-native": "0.76.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@module-federation/metro": "^0.2.0",
+    "metro": "^0.80.0",
+    "metro-config": "^0.80.0",
+    "typescript": "~5.3.3"
+  }
+}
+
