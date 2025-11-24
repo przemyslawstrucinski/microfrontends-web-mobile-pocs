@@ -1,4 +1,4 @@
-import { SearchWidget } from '../components/SearchWidget';
+import { SearchWidget } from '@search/widget';
 
 export default function HomePage() {
   return (
